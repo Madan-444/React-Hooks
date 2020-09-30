@@ -2,8 +2,8 @@ import React,{useReducer,useEffect} from 'react'
 import axios from 'axios'
 
 const initialState = {
-    loading:true,
-    error:'',
+    loading:false,
+    error:'jpt text',
     post:{}
 }
 
